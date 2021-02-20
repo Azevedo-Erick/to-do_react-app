@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*#b5a109*/
+html{
+  background-image:linear-gradient(to bottom right, #09342C, #1E2D2F);
+  background-repeat:no-repeat ;
+  height: 100%;
+}
+header > h1 {
+  text-align: center;
+  font-size: 48px;
+  font-family:  'DotGothic16', sans-serif;;
+  margin-bottom: 2%;
+  font-weight: bolder;
+  word-spacing: 2px;
+  color: aliceblue;
+  text-shadow: 2px 2px 0 #000000;
+}
+.App{
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.allign{
+  max-width: 50vw;
+}
